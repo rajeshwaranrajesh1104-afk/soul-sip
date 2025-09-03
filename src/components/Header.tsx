@@ -61,17 +61,17 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
               <motion.div
-                className="w-10 h-10 lg:w-12 lg:h-12 gradient-botanical rounded-2xl flex items-center justify-center shadow-soft"
+                className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 gradient-botanical rounded-2xl flex items-center justify-center shadow-soft"
                 whileHover={{ scale: 1.05, rotate: 5 }}
                 transition={{ duration: 0.3 }}
               >
-                <Leaf className="w-6 h-6 lg:w-7 lg:h-7 text-white" />
+                <Leaf className="w-4 h-4 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-white" />
               </motion.div>
               <div className="flex flex-col">
-                <span className="text-xl lg:text-2xl font-bold tracking-tight text-neutral-800 group-hover:text-botanical-600 transition-colors font-serif">
+                <span className="text-lg sm:text-xl lg:text-2xl font-bold tracking-tight text-neutral-800 group-hover:text-botanical-600 transition-colors font-serif">
                   Soul Sip Malts
                 </span>
-                <span className="text-xs text-neutral-500 font-medium">Tradition in Every Sip</span>
+                <span className="text-xs sm:text-xs text-neutral-500 font-medium hidden sm:block">Tradition in Every Sip</span>
               </div>
             </Link>
 

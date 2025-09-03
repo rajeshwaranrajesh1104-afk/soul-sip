@@ -154,10 +154,17 @@ select:focus-visible {
 /* Floating CTA */
 .floating-cta {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: 80px;
+  right: 16px;
   z-index: 40;
   animation: float 3s ease-in-out infinite;
+}
+
+@media (min-width: 1024px) {
+  .floating-cta {
+    bottom: 24px;
+    right: 24px;
+  }
 }
 
 @keyframes float {
